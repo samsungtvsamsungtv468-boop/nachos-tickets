@@ -1,0 +1,14 @@
+{
+  "name": "nachos-marketplace-tickets",
+  "version": "1.0.0",
+  "description": "Nachos Marketplace Discord Ticket System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node src/handlers/deployCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
